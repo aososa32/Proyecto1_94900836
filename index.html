@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarFormulario('login')">Iniciar Sesión</a></li>
+                <li><a href="#" onclick="mostrarFormulario('registro')">Registrarse</a></li>
+                <li><a href="#" onclick="mostrarFormulario('carrito')">Carrito de Compra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="loginForm" class="formulario">
+            <h1>Iniciar Sesión</h1>
+            <form>
+                <!-- Agrega aquí los campos de inicio de sesión -->
+                <input type="text" placeholder="Usuario"><br>
+                <input type="password" placeholder="Contraseña"><br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </section>
+
+        <section id="registroForm" class="formulario">
+            <h1>Registrarse</h1>
+            <form>
+                <!-- Agrega aquí los campos de registro -->
+                <input type="text" placeholder="Nombre"><br>
+                <input type="email" placeholder="Correo electrónico"><br>
+                <input type="password" placeholder="Contraseña"><br>
+                <input type="submit" value="Registrarse">
+            </form>
+        </section>
+
+        <section id="carritoForm" class="formulario">
+            <h1>Carrito de Compra</h1>
+            <!-- Agrega aquí el contenido del carrito de compra -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Agrega aquí el contenido del pie de página -->
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
